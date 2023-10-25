@@ -25,36 +25,61 @@ body{
 /* ESTILO DAS INFORMAÇÕES DA PÁGINA */
 #container #divText{
     display: grid;
-    padding-left: 60px;
+    padding: 0px 40px 0px 60px;
     grid-template-rows: 1fr 30% 8% 5% ;
 }
 
 /* ESTILO DO TITULO */
 #text-h1{
+    padding-right: 10px;
     color:#212121;
-    font-size: 5.8rem;
+    font-size: 5rem;
     text-align: start;
-    place-self:end;
+    place-self:center start;
 }
 
 /* ESTILO DA DESCRIÇÃO */
 #text-p{
-    /* background-color: #ff0; */
-    place-self: center;
+    padding-right: 100px;
+    place-self: start start;
     text-align: start;
-    width: 100%;
-    color: #9A5151;
+    color: #707070;
     font-weight:bold;
-    font-size:1.25rem
+    font-size:1.2rem
 }
 
 /* ESTILO DA AREA DO INPUT E DO BOTÃO */
 #buttons{
     display: flex;
+    position: relative;
+}
+
+#email-input{
+    /*PADING*/
+    font-size:1.1rem;
+    box-shadow: 3px 3px 12px #ddd;
+    border-radius:10px;
+    color:#A5A5A5
+}
+
+#subscribe-button{
+    background-color:#00f;
+    font-size:.9rem;
+    font-weight:bold;
+    color:#fff;
+    background-color:#3B3B3B;
+    border-radius:5px;
+    padding:15px 70px;
+    border:none;
+    position:absolute;
+    
+    right: -235px;
+    cursor:pointer;
 }
 
 /* ESTILO DO ÚLTIMO TEXTO */
 #underline{
+    color: #888C8E
 }
 
 /* ESTILO DO INPUT */
@@ -64,17 +89,3 @@ body{
     border:none;
     outline:none
 }
-
-
-/*
-INFORMAÇÕES: 
-
-background: #FFFFFF
-h1: #212121
-p:  #9A5151
-background input e-mail: #FFFFFF - border-radius: 5px;
-color text input e-mail: #A5A5A5
-texto em baixo do input: #888C8E
-cor do botão: #3B3B3B - border-radius 5px;
-cor do texto do botão: #FFFFFF 
-*/
