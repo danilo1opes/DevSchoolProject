@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ESTILO DO CONTEUDO DA PÁGINA */
+#container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: center;
+}
+
+/* ESTILO DA AREA DA IMAGEM */
+#divImg {
+  max-width: 100%;
+}
+
+/* ESTILO DAS INFORMAÇÕES DA PÁGINA */
+#container #divText {
+  display: grid;
+  padding: 0px 40px 0px 60px;
+  grid-template-rows: 1fr 30% 8% 5%;
+}
+
+/* ESTILO DO TITULO */
+#text-h1 {
+  padding-right: 10px;
+  color: #212121;
+  font-size: 5rem;
+  text-align: start;
+  place-self: center start;
+}
+
+/* ESTILO DA DESCRIÇÃO */
+#text-p {
+  padding-right: 100px;
+  place-self: start start;
+  text-align: start;
+  color: #707070;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* ESTILO DA AREA DO INPUT E DO BOTÃO */
+#buttons {
+  display: flex;
+  position: relative;
+}
+
+#subscribe-button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3b3b3b;
+  border-radius: 5px;
+  padding: 15px 70px;
+  border: none;
+  position: absolute;
+  right: -235px;
+  cursor: pointer;
+}
+
+/* ESTILO DO ÚLTIMO TEXTO */
+#underline {
+  color: #888c8e;
+}
+
+/* ESTILO DO INPUT */
+#email-input {
+  /*PADING*/
+  font-size: 1.1rem;
+  box-shadow: 3px 3px 12px #ddd;
+  border-radius: 10px;
+  color: #a5a5a5;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+
+#textHome {
+  color: #212121;
+}
+
+#flexNavbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 40px;
+  margin-bottom: 15px;
+}
+
+#flexList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.linkList {
+  color: #212121;
+  text-decoration: none;
+}
+
+#flexDesign {
+  display: flex;
+   justify-content: center;
+}
+
+#design {
+  justify-content: center;
+  margin-bottom: 40px;
+  width: 90%;
+} 
