@@ -9,7 +9,43 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+/* ESTILO DO CABEÇALHO */
+header {
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+}
+#navbarflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbarflex .logo h1, #menu li a:hover {
+  font-weight: 700;
+}
+#navbarflex .logo,
+#list {
+  margin: 0 30px 0 60px;
+}
+#menu {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+}
 
+#menu li a {
+  text-decoration: none;
+  padding: 1rem;
+}
+#menu li a:hover {
+  font-weight: 600;
+}
+
+#line {
+  width: calc(100% - 180px);
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
 /* ESTILO DO CONTEUDO DA PÁGINA */
 #container {
   display: grid;
@@ -84,4 +120,3 @@ body {
   border: none;
   outline: none;
 }
-
