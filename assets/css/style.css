@@ -9,12 +9,8 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
 /* ESTILO DO CABEÇALHO */
-header {
-  display: flex;
-  flex-direction: column;
-  font-family: "DM Sans", sans-serif;
-}
 
 #navbarflex {
   display: flex;
@@ -41,7 +37,7 @@ header {
 #menu li a {
   text-decoration: none;
   padding: 1rem;
-  color: #212121
+  color: #212121;
 }
 
 #menu li a:hover {
