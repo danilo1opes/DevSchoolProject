@@ -125,3 +125,35 @@ body {
   border: none;
   outline: none;
 }
+
+
+
+
+/* #infos, 
+.info,
+#last-info{
+  color:#fff
+} */
+
+/* ESTILO DO FOOTER */  
+#line-footer,
+#rodape{
+  color:#fff;
+}
+
+#rodape{
+  display: flex;
+  background:#575656
+}
+
+.info{
+  width: 300px;
+  padding: 55px 0px;
+}
+
+#line-footer{
+  font-size: 14px;
+  text-align:center;
+  padding: 10px 0;
+  background: #3b3b3b
+}
