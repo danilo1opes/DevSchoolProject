@@ -143,12 +143,26 @@ body {
 
 #rodape{
   display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
   background:#575656
 }
 
 .info{
   width: 300px;
   padding: 55px 0px;
+}
+
+.info ul {
+  list-style: none;
+}
+
+.info h3 {
+  padding-bottom: 1.5rem;
+}
+
+.info p{
+  line-height: 2rem;
 }
 
 #line-footer{
