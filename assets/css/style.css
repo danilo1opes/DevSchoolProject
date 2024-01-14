@@ -50,8 +50,6 @@ body {
   padding-bottom: 20px;
 }
 
-
-
 /* ESTILO DO CONTEUDO DA PÁGINA */
 #container {
   display: grid;
@@ -126,29 +124,70 @@ body {
   outline: none;
 }
 
-
-
-
-/* #infos, 
-.info,
-#last-info{
-  color:#fff
-} */
-
-/* ESTILO DO FOOTER */  
-#line-footer,
-#rodape{
-  color:#fff;
+/* ESTILO DA AREA DOS PRODUTOS */
+#ProductsArea {
+  margin: 40px 0 50px 0;
+  padding: 0 40px;
 }
 
-#rodape{
+.productsText {
+  margin-bottom: 40px;
+}
+
+#title {
+}
+
+#description {
+}
+
+#produtos {
+  background: #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 60px;
+  padding: 0 60px;
+}
+
+.card {
+  background-color: yellow;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:last-child {
+  grid-column: 2/3;
+}
+
+.titleCard {
+  margin-bottom: 10px;
+}
+
+.descriptionCard {
+  font-size: 14px;
+}
+
+.icone {
+  align-self: end;
+  margin-top: 70px;
+  width: 120px;
+}
+
+/* ESTILO DO FOOTER */
+#line-footer,
+#rodape {
+  color: #fff;
+}
+
+#rodape {
   display: flex;
   justify-content: space-between;
   padding: 0 4rem;
-  background:#575656
+  background: #575656;
 }
 
-.info{
+.info {
   width: 300px;
   padding: 55px 0px;
 }
@@ -161,13 +200,13 @@ body {
   padding-bottom: 1.5rem;
 }
 
-.info p{
+.info p {
   line-height: 2rem;
 }
 
-#line-footer{
+#line-footer {
   font-size: 14px;
-  text-align:center;
+  text-align: center;
   padding: 10px 0;
-  background: #3b3b3b
+  background: #3b3b3b;
 }
