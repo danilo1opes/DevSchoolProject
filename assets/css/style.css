@@ -135,13 +135,15 @@ body {
 }
 
 #title {
+  color: #000;
 }
 
 #description {
+  color: #7a7a7a;
 }
 
 #produtos {
-  background: #000;
+  background: #fffafa;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px 60px;
@@ -149,11 +151,32 @@ body {
 }
 
 .card {
-  background-color: yellow;
+  background-color: #fff;
   height: 300px;
   padding: 30px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.040);
+}
+
+.b__color--roxo {
+  border-top: 6px solid #803686;
+  border-radius: 5px;
+}
+
+.b__color--orange {
+  border-top: 6px solid #FFA463;
+  border-radius: 5px;
+}
+
+.b__color--red {
+  border-top: 6px solid #FF4500;
+  border-radius: 5px;  
+}
+
+.b__color--blue {
+  border-top: 6px solid #4400ff;
+  border-radius: 5px;  
 }
 
 .card:last-child {
@@ -162,10 +185,12 @@ body {
 
 .titleCard {
   margin-bottom: 10px;
+  color: #000;
 }
 
 .descriptionCard {
   font-size: 14px;
+  color: #868586;
 }
 
 .icone {
