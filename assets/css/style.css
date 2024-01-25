@@ -112,10 +112,6 @@ body {
   color: #f00;
 }
 
-#underline {
-  color: #888c8e;
-}
-
 /* ESTILO DO INPUT */
 #email-input {
   font-size: 1.1rem;
@@ -142,10 +138,12 @@ body {
 
 #title {
   color: #000;
+  margin-left: 30px;
 }
 
 #description {
   color: #7a7a7a;
+  margin-left: 30px;
 }
 
 #produtos {
