@@ -108,6 +108,10 @@ body {
 }
 
 /* ESTILO DO ÚLTIMO TEXTO */
+#detailTextRed {
+  color: #f00;
+}
+
 #underline {
   color: #888c8e;
 }
@@ -126,12 +130,14 @@ body {
 
 /* ESTILO DA AREA DOS PRODUTOS */
 #ProductsArea {
-  margin: 40px 0 50px 0;
-  padding: 0 40px;
+  margin: 100px 0 100px 0;
+  padding: 50px 0px 100px 0px;
+  background: #fffafa;
 }
 
 .productsText {
   margin-bottom: 40px;
+  margin-left: 30px;
 }
 
 #title {
@@ -143,11 +149,11 @@ body {
 }
 
 #produtos {
-  background: #fffafa;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px 60px;
   padding: 0 60px;
+  margin: 0px 30px 0px 30px;
 }
 
 .card {
@@ -156,7 +162,7 @@ body {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.040);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.04);
 }
 
 .b__color--roxo {
@@ -165,18 +171,18 @@ body {
 }
 
 .b__color--orange {
-  border-top: 6px solid #FFA463;
+  border-top: 6px solid #ffa463;
   border-radius: 5px;
 }
 
 .b__color--red {
-  border-top: 6px solid #FF4500;
-  border-radius: 5px;  
+  border-top: 6px solid #ff4500;
+  border-radius: 5px;
 }
 
 .b__color--blue {
   border-top: 6px solid #4400ff;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
 
 .card:last-child {
